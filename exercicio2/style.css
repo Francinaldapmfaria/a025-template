@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 25vh);
+    background-color: greenyellow;
+}
+section{
+    border: 1px solid black;
+}
+
+@media screen and (max-device-width: 480px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: 1fr 1fr;
+        grid-template-rows:  repeat(5, 1fr); */
+        background-color: chartreuse;
+    }
+    section{
+        color: red;
+        text-align: center;
+    }
+}

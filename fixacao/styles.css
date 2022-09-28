@@ -45,4 +45,34 @@
     color: white;
     padding: 20px;
     width: 100%;
+    height: 5vh;
+  }
+
+  @media screen and (max-device-width: 480px) {
+    
+
+    main{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      width: 90vw;
+      align-items: center;
+      max-width: none;
+      min-height: fit-content;
+      height: 100%;
+      position: static;
+    }
+    main aside,
+  main section{
+    width: 90vh;
+  }
+
+  p{
+    font-size: 2rem;
+  }
+footer{
+  position: relative;
+  margin: 0;
+} */
+    
   }
